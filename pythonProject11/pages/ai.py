@@ -19,7 +19,7 @@
 import google.generativeai as genai
 
 # Configure the GenAI API key (replace with your actual key)
-genai.configure(api_key="AIzaSyAcr5MCA00fk4QX7QxyZnWml2jyeQ6HToU")
+genai.configure(api_key="your_api_key")
 
 def get_llm_response(gpt_messages):
     # Convert the messages to a single prompt format for GenAI
